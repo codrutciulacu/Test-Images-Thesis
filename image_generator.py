@@ -26,7 +26,9 @@ def generate_random_pixel_image(width, height, output_dir='output', filename=Non
 
 sizes = [
     (100, 100),
-    (200, 200),
+    (500, 500),
+    (1000, 1000),
+    (5000, 5000),
 ]
 
 for w, h in sizes:
